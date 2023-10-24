@@ -37,6 +37,7 @@ struct ContentView: View {
                     .onMove(perform: { indices, newOffset in
                         clothingItems.move(fromOffsets: indices, toOffset: newOffset)
                     })
+        //  I just added some stuff
                 }
                 Text(message)
                 HStack {
